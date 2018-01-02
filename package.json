@@ -1,0 +1,32 @@
+{
+  "name": "bentobots",
+  "version": "0.0.1",
+  "description": "A collection of useful methods.",
+  "scripts": {
+    "test": "jest",
+    "lint": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css}\"",
+    "build": "rm -rf lib && tsc"
+  },
+  "keywords": [],
+  "author": "John Rees <john@bitsushi.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^22.0.0",
+    "@types/node": "^8.5.2",
+    "jest": "^22.0.4",
+    "prettier": "^1.9.2",
+    "ts-jest": "^22.0.0",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
+  }
+}
