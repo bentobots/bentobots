@@ -1,14 +1,18 @@
 {
   "name": "bentobots",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A collection of useful methods.",
+  "author": "John Rees <john@bitsushi.com>",
+  "homepage": "https://github.com/bentobots/bentobots",
+  "repository": {
+    "url": "https://github.com/bentobots/bentobots.git"
+  },
   "scripts": {
     "test": "jest",
     "lint": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css}\"",
     "build": "rm -rf lib && tsc"
   },
   "keywords": [],
-  "author": "John Rees <john@bitsushi.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^22.0.0",
