@@ -7,10 +7,10 @@ import { Point, _getXY } from ".";
  * @param point
  */
 const rotateAroundPoint = (
-  rotationPoint: [number, number],
+  rotationPoint: Point,
   angleInRadians: number = 0,
-  point: [number, number]
-): [number, number] => {
+  point: Point
+): Point => {
   const [originX, originY] = rotationPoint;
   const [pointX, pointY] = point;
 

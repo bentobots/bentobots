@@ -1,3 +1,4 @@
+import { Point } from ".";
 import bounds from "./bounds";
 
 /**
@@ -5,7 +6,7 @@ import bounds from "./bounds";
  * @param input
  * @param centrePoint
  */
-const clockwiseSort = (input: number[][], centrePoint: [number, number]) => {
+const clockwiseSort = (input: number[][], centrePoint: Point) => {
   if (!Array.isArray(input) || input.length === 0) return input;
 
   const b = bounds(input);
