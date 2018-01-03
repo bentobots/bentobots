@@ -33,4 +33,6 @@ const loopifyInGroups = (size, offset = 0) => arr => {
   return loopedArray;
 };
 
+export const loopifyInPairs = loopifyInGroups(2);
+
 export default loopifyInGroups;
