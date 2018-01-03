@@ -11,7 +11,7 @@
     "test": "jest",
     "lint": "prettier --write \"bots/**/*.{ts,tsx,json,css}\"",
     "build": "lerna run build",
-    "publish": "lerna run publish"
+    "publish": "lerna publish"
   },
   "keywords": [],
   "license": "MIT",

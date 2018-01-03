@@ -11,12 +11,8 @@
     "access": "public"
   },
   "main": "lib/index.js",
-  "typings": "lib/cjs/index.d.ts",
-  "types": "lib/main.d.ts",
-  "keywords": [
-    "list",
-    "array",
-    "bentobots"
-  ],
+  "typings": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
+  "keywords": ["list", "array", "bentobots"],
   "license": "MIT"
 }
