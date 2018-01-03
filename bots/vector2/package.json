@@ -1,7 +1,7 @@
 {
   "name": "@bentobots/vector2",
   "description": "a collection of functions for 2d vectors",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "author": "John Rees <john@bitsushi.com>",
   "homepage": "https://github.com/bentobots/bentobots/master/bots/vector2",
   "scripts": {
