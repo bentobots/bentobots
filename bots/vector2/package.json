@@ -4,7 +4,7 @@
   "description": "a collection of functions for 2d vectors",
   "homepage": "https://github.com/bentobots/bentobots/master/bots/vector2",
   "scripts": {
-    "test": "jest"
+    "build": "rm -rf lib && tsc"
   },
   "keywords": [],
   "author": "John Rees <john@bitsushi.com>",
