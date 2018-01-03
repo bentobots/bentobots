@@ -1,7 +1,7 @@
 {
   "name": "@bentobots/list",
   "description": "a collection of functions for lists",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "John Rees <john@bitsushi.com>",
   "repository": "https://github.com/bentobots/bentobots/tree/master/bots/list",
   "scripts": {
@@ -13,6 +13,10 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "types": "lib/index.d.ts",
-  "keywords": ["list", "array", "bentobots"],
+  "keywords": [
+    "list",
+    "array",
+    "bentobots"
+  ],
   "license": "MIT"
 }
