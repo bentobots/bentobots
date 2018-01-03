@@ -1,13 +1,19 @@
 {
   "name": "@bentobots/vector2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a collection of functions for 2d vectors",
   "homepage": "https://github.com/bentobots/bentobots/master/bots/vector2",
   "scripts": {
     "build": "rm -rf lib && tsc"
   },
   "main": "lib/index.js",
-  "keywords": ["geometry", "vector", "point", "2d", "bentobots"],
+  "keywords": [
+    "geometry",
+    "vector",
+    "point",
+    "2d",
+    "bentobots"
+  ],
   "author": "John Rees <john@bitsushi.com>",
   "license": "MIT"
 }
