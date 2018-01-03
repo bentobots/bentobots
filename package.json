@@ -10,7 +10,8 @@
   "scripts": {
     "test": "jest",
     "lint": "prettier --write \"bots/**/*.{ts,tsx,json,css}\"",
-    "build": "rm -rf lib && tsc"
+    "build": "lerna run build",
+    "publish": "lerna run publish"
   },
   "keywords": [],
   "license": "MIT",
