@@ -18,7 +18,7 @@
       "es2015"
     ],
     "outDir": "./lib",
-    "rootDir": "./src"
+    "rootDir": "./bots"
   },
   "exclude": [
     "node_modules",

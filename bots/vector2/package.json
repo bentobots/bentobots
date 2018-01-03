@@ -1,0 +1,12 @@
+{
+  "name": "@bentobots/vector2",
+  "version": "0.0.1",
+  "description": "a collection of functions for 2d vectors",
+  "homepage": "https://github.com/bentobots/bentobots/master/bots/vector2",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "John Rees <john@bitsushi.com>",
+  "license": "MIT"
+}
