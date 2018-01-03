@@ -1,6 +1,6 @@
 {
   "name": "@bentobots/vector2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a collection of functions for 2d vectors",
   "homepage": "https://github.com/bentobots/bentobots/master/bots/vector2",
   "scripts": {
