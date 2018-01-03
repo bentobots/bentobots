@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rm -rf lib && tsc"
   },
-  "keywords": [],
+  "main": "lib/index.js",
+  "keywords": ["geometry", "vector", "point", "2d", "bentobots"],
   "author": "John Rees <john@bitsushi.com>",
   "license": "MIT"
 }

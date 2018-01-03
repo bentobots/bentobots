@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest",
-    "lint": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css}\"",
+    "lint": "prettier --write \"bots/**/*.{ts,tsx,json,css}\"",
     "build": "rm -rf lib && tsc"
   },
   "keywords": [],
