@@ -1,7 +1,8 @@
 {
   "name": "@bentobots/vector2",
-  "version": "0.0.3",
   "description": "a collection of functions for 2d vectors",
+  "version": "0.0.4",
+  "author": "John Rees <john@bitsushi.com>",
   "homepage": "https://github.com/bentobots/bentobots/master/bots/vector2",
   "scripts": {
     "build": "rm -rf lib && tsc"
@@ -14,6 +15,5 @@
     "2d",
     "bentobots"
   ],
-  "author": "John Rees <john@bitsushi.com>",
   "license": "MIT"
 }
