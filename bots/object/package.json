@@ -3,7 +3,8 @@
   "description": "a collection of functions for objects",
   "version": "0.0.1",
   "author": "John Rees <john@bitsushi.com>",
-  "repository": "https://github.com/bentobots/bentobots/tree/master/bots/object",
+  "repository":
+    "https://github.com/bentobots/bentobots/tree/master/bots/object",
   "scripts": {
     "build": "rm -rf lib && tsc"
   },
@@ -13,10 +14,6 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "types": "lib/index.d.ts",
-  "keywords": [
-    "object",
-    "dictionary",
-    "bentobots"
-  ],
+  "keywords": ["object", "dictionary", "bentobots"],
   "license": "MIT"
 }
