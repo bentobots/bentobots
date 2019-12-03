@@ -33,6 +33,7 @@
       "ts",
       "js",
       "json"
-    ]
+    ],
+    "testEnvironment": "node"
   }
 }

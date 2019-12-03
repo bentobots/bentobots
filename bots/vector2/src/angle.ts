@@ -1,6 +1,6 @@
 import { Point, _getXY } from ".";
 import rad2deg from "./rad2deg";
-import pipe from "./_utils";
+import { pipe } from "./_utils";
 
 /**
  * Calculates the angle (in radians) of a line drawn between two points
