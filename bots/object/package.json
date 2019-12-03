@@ -1,7 +1,7 @@
 {
   "name": "@bentobots/object",
   "description": "a collection of functions for objects",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "John Rees <john@bitsushi.com>",
   "repository": "https://github.com/bentobots/bentobots/tree/master/bots/object",
   "scripts": {
