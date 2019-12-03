@@ -1,1 +1,1 @@
-export { default as pathStringify } from "./pathStringify";
+export { default as pathStringify } from "./path_stringify";

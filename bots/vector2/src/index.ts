@@ -1,4 +1,5 @@
-export type Point = [number, number];
+export type IPoint = number[];
+export type IClipperPoint = { X: number; Y: number };
 
 export const _getXY = (start, end) => [end[0] - start[0], end[1] - start[1]];
 

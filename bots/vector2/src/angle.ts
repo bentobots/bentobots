@@ -1,13 +1,16 @@
-import { Point, _getXY } from ".";
+import { IPoint, _getXY } from ".";
+// import pipe from "../../utils/src/pipe";
 import rad2deg from "./rad2deg";
-import { pipe } from "./_utils";
+
+const doCompose = (f, g) => (...args) => f(g(...args));
+const pipe = (...fns: Function[]): Function => fns.reduceRight(doCompose);
 
 /**
  * Calculates the angle (in radians) of a line drawn between two points
  * @param start
  * @param end
  */
-const angle = (start: Point, end: Point): number => {
+const angle = (start: IPoint, end: IPoint): number => {
   const [x, y] = _getXY(start, end);
   return Math.atan2(y, x);
 };

@@ -1,3 +1,4 @@
+// import { IPoint } from "../../vector2/src";
 type IPoint = number[];
 
 /**

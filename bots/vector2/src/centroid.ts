@@ -1,10 +1,10 @@
-import { Point } from ".";
+import { IPoint } from ".";
 
 /**
  * finds the midpoint of a group of points
  * @param pts
  */
-const centroid = (pts: number[][]): Point => {
+const centroid = (pts: number[][]): IPoint => {
   var first = pts[0],
     last = pts[pts.length - 1];
   if (first[0] != last[0] || first[1] != last[1]) pts.push(first);

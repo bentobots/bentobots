@@ -1,16 +1,17 @@
-import { Point, _getXY } from ".";
+import { IPoint } from ".";
 
 /**
  * Rotates a point around a given axis
  * @param axis
  * @param angleInRadians
  * @param point
+ * @returns {Array}
  */
 const rotateAroundPoint = (
-  rotationPoint: Point,
+  rotationPoint: IPoint,
   angleInRadians: number = 0,
-  point: Point
-): Point => {
+  point: IPoint
+): IPoint => {
   const [originX, originY] = rotationPoint;
   const [pointX, pointY] = point;
 
