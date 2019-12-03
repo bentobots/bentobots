@@ -5,7 +5,7 @@
  */
 const safeIndex = arrayLength => index => {
   if (index < 0) {
-    return (arrayLength + index % arrayLength) % arrayLength;
+    return (arrayLength + (index % arrayLength)) % arrayLength;
   } else if (index >= arrayLength) {
     return index % arrayLength;
   } else {

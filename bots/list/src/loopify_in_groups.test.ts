@@ -9,14 +9,22 @@ describe("loopify in groups", () => {
 
   it("loopifys in pairs", () => {
     const array = ["a", "b", "c"];
-    const result = [["a", "b"], ["b", "c"], ["c", "a"]];
+    const result = [
+      ["a", "b"],
+      ["b", "c"],
+      ["c", "a"]
+    ];
     expect(loopifyInPairs(array)).toEqual(result);
     expect(loopifyInGroups(2)(array)).toEqual(result);
   });
 
   it("loopifys complex arrays in pairs", () => {
     const array = [["a"], "b", [["c"]]];
-    const result = [[["a"], "b"], ["b", [["c"]]], [[["c"]], ["a"]]];
+    const result = [
+      [["a"], "b"],
+      ["b", [["c"]]],
+      [[["c"]], ["a"]]
+    ];
     expect(loopifyInPairs(array)).toEqual(result);
     expect(loopifyInGroups(2)(array)).toEqual(result);
   });
@@ -34,13 +42,23 @@ describe("loopify in groups", () => {
 
   it("loopifys in groups with offset", () => {
     const array = ["a", "b", "c", "d", "e", "f"];
-    let result = [["a", "b", "c"], ["c", "d", "e"], ["e", "f", "a"]];
+    let result = [
+      ["a", "b", "c"],
+      ["c", "d", "e"],
+      ["e", "f", "a"]
+    ];
     expect(loopifyInGroups(3, 1)(array)).toEqual(result);
 
-    result = [["a", "b", "c"], ["d", "e", "f"]];
+    result = [
+      ["a", "b", "c"],
+      ["d", "e", "f"]
+    ];
     expect(loopifyInGroups(3, 2)(array)).toEqual(result);
 
-    result = [["a", "b", "c"], ["e", "f", "a"]];
+    result = [
+      ["a", "b", "c"],
+      ["e", "f", "a"]
+    ];
     expect(loopifyInGroups(3, 3)(array)).toEqual(result);
   });
 });
