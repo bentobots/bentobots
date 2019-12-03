@@ -1,7 +1,7 @@
 {
   "name": "@bentobots/utils",
   "description": "utils bentobots bot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "John Rees <john@bitsushi.com>",
   "repository": "https://github.com/bentobots/bentobots/tree/master/bots/utils",
   "scripts": {
