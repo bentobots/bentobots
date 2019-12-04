@@ -2,3 +2,14 @@
 # yarn lockfile v1
 
 
+clipper-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/clipper-js/-/clipper-js-1.0.2.tgz#e44891dde6542cc7d0bcc6ef9684d45905714893"
+  integrity sha1-5EiR3eZULMfQvMbvloTUWQVxSJM=
+  dependencies:
+    clipper-lib "^6.2.1"
+
+clipper-lib@^6.2.1:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/clipper-lib/-/clipper-lib-6.4.2.tgz#f2444d87913aaea8312f9e26421b0843f4149e87"
+  integrity sha512-knglhjQX5ihNj/XCIs6zCHrTemdvHY3LPZP9XB2nq2/3igyYMFueFXtfp84baJvEE+f8pO1ZS4UVeEgmLnAprQ==
