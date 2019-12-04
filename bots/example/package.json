@@ -1,7 +1,7 @@
 {
   "name": "@bentobots/example",
   "description": "an example bentobots bot",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "John Rees <john@bitsushi.com>",
   "repository": "https://github.com/bentobots/bentobots/tree/master/bots/example",
   "scripts": {
